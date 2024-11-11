@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+        <h1>Dashboard</h1>
+        <div class="user-details-placeholder">
+            <p>User Details:</p>
+        </div>
+        
+        <button class="button" onclick="showUsers()">Show Users</button>
+        
+        <select class="dropdown">
+            <option value="sort">Sort by</option>
+            <option value="name">Name</option>
+            <option value="date">Date</option>
+        </select>
+        
+        <ul id="user-list">
+        </ul>
+        
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
